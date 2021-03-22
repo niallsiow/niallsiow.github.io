@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+/* html elements*/
+
+body{
+    background-color: #173f5f;
+    color: #3caea3;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* "Courier New" is another nice looking font*/
+
+/*
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+*/
+
+
+h1{
+    text-align: center;
+    font-size: 250%;
+    font-family: "Merriweather", sans-serif;
+
+}
+
+h3  {
+    font-family: "Merriweather", sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+a:link, a:visited{
+    background-color: #ed553b;
+    color: #f6d55c;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: red;
+    text-decoration: underline;
+}
+
+img{
+    width: 600px;
+    height: 350px;
+}
+
+div{
+    
+}
+
+/* classes */
+
+.section_div{
+    border-style: hidden;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    
+}
+
+.paragraph_description{
+    width: 50%;
+}
+
+.project_section_a{
+    background-color: #20639b;
+}
+
+.align_left{
+
+}
+
+.align_right{
+    position: absolute;
+    right: 50px;
+}
